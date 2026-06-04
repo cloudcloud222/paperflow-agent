@@ -1,0 +1,20 @@
+input:
+  base_dir: "data/input"
+  topic_dir: "data/input/topic"
+  goal_dir: "data/input/goal"
+  materials_dir: "data/input/materials"
+
+output:
+  base_dir: "data/output"
+  literature_dir: "data/output/literature_summaries"
+  paper_dir: "data/output/paper_pipeline"
+  sections_dir: "data/output/sections"
+  assembled_dir: "data/output/final_papers"
+  outline_schema_dir: "data/output/outline_schemas"
+  outline_schema_rendered_dir: "data/output/outline_schemas_rendered"
+  node_cards_dir: "data/output/node_cards"
+  node_writing_dir: "data/output/node_writings"
+  node_pipeline_dir: "data/output/node_pipeline"
+  node_assembled_dir: "data/output/node_assembled_papers"
+  node_reference_dir: "data/output/node_references"
+  logs_dir: "data/logs"

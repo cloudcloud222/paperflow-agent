@@ -1,0 +1,44 @@
+default_provider: deepseek
+
+providers:
+  deepseek:
+    base_url: "https://api.deepseek.com"
+    api_key_env: "DEEPSEEK_API_KEY"
+    chat_model: "deepseek-v4-flash"
+    timeout: 60
+    max_retries: 1
+
+routing:
+  planner: deepseek
+  organizer: deepseek
+  reviewer: deepseek
+  reviser: deepseek
+  literature_summarizer: deepseek
+
+  outline_planner: deepseek
+  outline_reviewer: deepseek
+
+  introduction_writer: deepseek
+  introduction_polisher: deepseek
+
+  related_work_writer: deepseek
+  related_work_polisher: deepseek
+
+  methodology_writer: deepseek
+  methodology_polisher: deepseek
+
+  experiment_writer: deepseek
+  experiment_polisher: deepseek
+
+  conclusion_writer: deepseek
+  conclusion_polisher: deepseek
+
+  consistency_checker: deepseek
+
+  outline_schema_planner: deepseek
+  node_writer: deepseek
+
+  node_polisher: deepseek
+  node_consistency_checker: deepseek
+  node_reference_selector: deepseek
+  node_reviser: deepseek

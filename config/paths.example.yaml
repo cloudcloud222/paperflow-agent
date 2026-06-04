@@ -1,0 +1,17 @@
+# This file documents the path format.
+# The CLI generates a project-specific paths.yaml under <project>/.paper_agent_runtime/config/.
+input:
+  base_dir: "examples/demo_project"
+  topic_dir: "examples/demo_project/topic.txt"
+  goal_dir: "examples/demo_project/goal.txt"
+  materials_dir: "examples/demo_project/materials"
+
+output:
+  base_dir: "examples/demo_project/outputs"
+  literature_dir: "examples/demo_project/outputs/literature_summaries"
+  outline_schema_dir: "examples/demo_project/outputs/outline_schemas"
+  outline_review_dir: "examples/demo_project/outputs/outlines"
+  node_cards_dir: "examples/demo_project/outputs/node_cards"
+  node_pipeline_dir: "examples/demo_project/outputs/node_pipeline"
+  node_assembled_dir: "examples/demo_project/outputs/node_assembled_papers"
+  logs_dir: "examples/demo_project/outputs/logs"

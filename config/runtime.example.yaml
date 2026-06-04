@@ -1,0 +1,19 @@
+stream:
+  planner: true
+  organizer: true
+  writer: true
+  reviewer: true
+  reviser: true
+  literature_summarizer: true
+
+pdf:
+  max_pages: 5
+
+ruledoc:
+  enabled: false
+  rule_name: "yzu_thesis"
+
+pipeline:
+  enable_literature_pipeline: true
+  enable_reviewer: true
+  enable_reviser: true

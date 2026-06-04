@@ -1,0 +1,55 @@
+# virtual env
+.venv/
+venv/
+env/
+
+# python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE
+.vscode/
+.idea/
+
+# secrets
+.env
+.env.*
+!.env.example
+*.key
+secrets.json
+api_keys.json
+config.local.yaml
+config.local.yml
+config.local.json
+
+# data and outputs
+data/
+outputs/
+.paper_agent_runtime/
+.patch_backup/
+.patch_backup_*/
+.patch_backup_v*/
+workspace/
+
+# documents that may contain private content
+*.pdf
+*.docx
+*.doc
+*.xlsx
+*.pptx
+
+# logs and temp
+*.log
+*.tmp
+*.bak
+
+# system files
+.DS_Store
+Thumbs.db
+
+# build
+build/
+dist/
+*.egg-info/
